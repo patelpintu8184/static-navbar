@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentcopy</title>
+    <link rel="stylesheet" href="navbardrpdown.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="navbar_logo">
+                <img src="tusharlogo2.png" alt="">
+            </div>
+
+            <div class="navbar_links" id="navbar_links">
+                <i class="fas fa-times-circle" onclick="closeMenu()"></i>
+                <ul>
+
+                    <li><a href="#">Home</a>
+                        <div class="sub_menu_1">
+                            <ul>
+                                <li class="hover_me"><a href="#">Mission</a><i class="fas fa-angle-right"></i>
+                                    <div class="sub_menu_2">
+                                        <ul>
+                                            <li><a href="#">SEO</a></li>
+                                            <li><a href="#">Social Media</a></li>
+                                            <li><a href="#">Email Marketing</a></li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li class="hover_me"><a href="#">Vision</a><i class="fas fa-angle-right"></i>
+                                    <div class="sub_menu_2">
+                                        <ul>
+                                            <li><a href="#">SEO</a></li>
+                                            <li><a href="#">Social Media</a></li>
+                                            <li><a href="#">Email Marketing</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Team</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">About Us</a>
+                        <div class="sub_menu_1">
+                            <ul>
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Team</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Recipe</a>
+                        <div class="sub_menu_1">
+                            <ul>
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Team</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact Us</a>
+                        <div class="sub_menu_1">
+                            <ul>
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Team</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <button type="button" class="btn">Sign Up</button>
+
+                </ul>
+
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner_title">
+            <h1> Food tastes<span> better when <br> you eat it</span> with your family</h1>
+            <button type="button" class="btn">Explore</button>
+        </div>
+        <div class="vertical_bar">
+            <div class="search_icon">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="social_icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="content">
+                <small>The Body becomes what the foods are, as the spirits becomes what the thoughts are.</small>
+                <p><a href="">Prev</a><a href=""> Next</a></p>
+            </div>
+            <div class="notification_img">
+                <img src="food3.jpg" alt="">
+            </div>
+        </div>
+        <br>
+      <div class="copyright">
+          <p>This is just to demo my web development skills. logos used belong to their owners. Only for DEMO</p>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("navbar_links");
+        function showMenu() {
+            show.style.right = "0";
+        }
+        function closeMenu() {
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
